@@ -945,3 +945,7 @@ nav { gap: 18px; }
   .challenge-grid { gap:28px; }.code-samples { gap:16px; }.benchmark { margin-top:32px; }.quality-visuals { grid-template-columns:1fr; }.profession-list > div { grid-template-columns:40px minmax(0,1fr); gap:0; }.profession-list small { grid-column:2; margin-top:6px; }
   .experience, .capabilities, .about { padding-top:76px; padding-bottom:76px; }.experience .section-title-row { gap:22px; }.step { padding-left:22px; }.capability-grid { grid-template-columns:1fr; margin-top:34px; }.about .manifesto-grid { gap:24px; }.contact { padding-top:74px; padding-bottom:74px; }
 }
+
+/* The product evidence area follows the same compact case-file rhythm on phones.
+   Its desktop padding otherwise wins the cascade at this breakpoint. */
+@media (max-width:680px) { .product { padding-top:60px; padding-bottom:60px; } }
