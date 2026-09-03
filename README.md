@@ -63,6 +63,8 @@ Sections may be added, removed, reordered, or adapted when the approved portfoli
 - Treat `main` as the approved starter baseline.
 - Keep the template framework-free and dependency-free unless a deliberate production decision changes that standard.
 
+For this client production, the high-priority visual-independence rules are in [IMPLEMENTATION-RULES.md](IMPLEMENTATION-RULES.md). They take precedence over the starter's visual-direction notes below.
+
 ## Design direction
 
 The starter preserves the approved Modern Studio direction: editorial serif display typography, warm paper surfaces, deep navy contrast sections, terracotta accents, fine rules, structured cards, and a calm, professional responsive layout.
